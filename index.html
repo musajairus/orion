@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Orion — Architecture</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="logo" href="index.html">ORION</a>
+      <ul class="nav-links">
+        <li><a class="active" href="index.html" aria-current="page">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO / SLIDER -->
+  <main>
+    <section class="hero">
+      <div class="slider" aria-label="Project showcase">
+        <div class="slide active" style="background-image:url('images/slide1.jpg');"></div>
+        <div class="slide" style="background-image:url('images/slide2.jpg');"></div>
+        <div class="slide" style="background-image:url('images/slide3.jpg');"></div>
+      </div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-copy">
+        <h1>Designing Tomorrow’s Landmarks</h1>
+        <p>Contemporary architecture. Precise construction. Enduring spaces.</p>
+      </div>
+
+      <button class="arrow prev" aria-label="Previous slide">‹</button>
+      <button class="arrow next" aria-label="Next slide">›</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
